@@ -8,19 +8,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
     <title>Портфолио Junior верстальщика</title>
 
-    <style> 
-    /* body {
-      font-family: 'Montserrat', sans-serif;
-    } */
-      </style>
+
   </head>
   
 
   <body>
     <header class="page-header">
       <div class="container">
-        sataevruslan1@yandex.ru
-        +7 961 551 72 32
+       <a class="header-email" 
+       href="mailto:sataevruslan1@yandex.ru">sataevruslan1@yandex.ru</a>
+       <a class="header-phone" href="tel:+7 961 551 72 32">+7 961 551 72 32</a>
       </div>
     </header>
 
@@ -34,6 +31,9 @@
     <section class="intro">
       <div class="container">
       <h2 class="subheading">Давайте познакомимся</h2>
+      <figure class="user-image">
+        <img src="files/user.jpg" width="928" height="536" alt="Фотография Сатаева Руслан">
+      </figure>
       <h3>Из спортсмена в айтишника</h3>
       <p>Решил изменить свою жизнь.</p>
       <h3>Чем могу быть полезен</h3>
@@ -44,9 +44,12 @@
     <section class="portfolio">
       <div class="container">
       <h2 class="subheading">Мои работы</h2>
-
+<figure class="project-image">
+  <img src="files/project.jpg" width="928" height="536" alt="Сайт магазина товаров для дома">
+</figure>
       <h3>Магазин товаров для дома</h3>
       <p>Мой первый сайт.</p>
+      <a class="button" href="source/project/index.html">Открыть страницу</a>
 
       <h3>Блог начинающего верстальщика</h3>
       <p>Статический блог про обучение HTML и CSS.</p>
@@ -54,8 +57,11 @@
     </section>
 
     <footer class="page-footer">
-      sataevruslan1@yandex.ru
-      +7 961 551 72 32
+      <div class="container">
+        <a class="footer-email"
+     href="mailto:sataevruslan1@yandex.ru">sataevruslan1@yandex.ru</a>
+      <a class="footer-phone" href="tel:+7 961 551 72 32"> +7 961 551 72 32</a>
+      </div>
     </footer>
   </body>
 </html>
